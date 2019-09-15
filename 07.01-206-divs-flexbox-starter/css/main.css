@@ -102,7 +102,9 @@ html {
 }
 
 body {
+  background-color: #566c7d;
   font-family: 'Source Sans Pro', sans-serif;
+  color: #fff;
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
@@ -115,19 +117,38 @@ body {
   font-weight: 700;
 }
 
+.introduction {
+	display: flex;
+	justify-content: flex-start;
+	font-size: 2em;
+	font-family: 'Lora', serif;
+}
+
+.title {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.title h2 span {
+	font-family: 'Lora', serif;
+}
+
 .div-1, .div-2, .div-3 {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 3px solid #dd9d91;
   width: 30%;
   color: #fff;
   line-height: 1.5em;
   font-size: 1.5em;
-  background-color: #566c7d;
   height: auto;
+  padding-right: 25px;
 }
 
+.div-1, .div-2 {
+  border-right: 3px solid #dd9d91;
+}
 
 
 
